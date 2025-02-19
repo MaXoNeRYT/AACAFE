@@ -11,11 +11,9 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, #f8ede3, #ddc0a5);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: blur(3px);
+    background: linear-gradient(to bottom, #16191e, #242931);
+   
+   
     z-index: -1;
 }
 
@@ -37,11 +35,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #b38b6d; /* Medium pastel brown */
-    border-radius: 0 0 20px 20px;
+    
     padding: 12px;
     border-radius: 20px;
     margin: 20px;
-    background-color: #e2c6ac; /* Ensure header has a background */
+    background-color: #252a32; /* Ensure header has a background */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
 }
 
@@ -63,20 +61,26 @@ nav a:hover {
 main {
     padding: 20px;
     border-radius: 20px;
-    background-color: #e2c6ac; /* Warm beige */
+    background-color: #2a2f38; /* Warm beige */
     margin: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    color: white; 
 }
 
 
+
 footer {
-    background-color: #b38b6d;
+    background-color: #171b1f;
     color: #fff;
     text-align: center;
-    padding: 10px;
+
+    
     border-radius: 20px 20px 0 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
     bottom: 0;
 }
 
