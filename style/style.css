@@ -54,7 +54,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: #d1b399; /* Light pastel brown */
+    background-color: #20212e; /* Light pastel brown */
     color: #5b4233;
 }
 
@@ -133,7 +133,7 @@ a{
   }
   
   .nav-link:hover{
-    color: #FFDFD3;
+    color: #ffffff;
   }
   
 
